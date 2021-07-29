@@ -1,2 +1,5 @@
 # netflix
-pondo em pratica algumas coisas que estou aprendendo 
+
+Bootcamp "REACT DEVELOPER" da DIO.
+
+Fiz algumas modificações para ficar mais parecido com meu estilo.
