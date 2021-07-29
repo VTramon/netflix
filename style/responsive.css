@@ -1,13 +1,85 @@
+@media screen and (max-width:1300px) {
+
+    .filme-principal {
+        height: 750px;
+    }
+}
+
+@media screen and (max-width:1200px) {
+
+    .filme-principal {
+        height: 700px;
+    }
+}
+
+@media screen and (max-width:1050px) {
+
+    .filme-principal {
+        height: 660px;
+    }
+}
+
+@media screen and (max-width:850px) {
+
+    .filme-principal {
+        height: 600px;
+    }
+
+    .filme-principal .titulo {
+        font-size: 45px;
+    }
+}
+
+@media screen and (max-width:800px) {
+
+    .descricao {
+        display: none;
+    }
+
+}
+
 @media screen and (max-width:700px) {
     header .container {
         display: flex;
         flex-direction: column;
     }
 
+    .descricao {
+        display: none;
+    }
+
     .botao {
         margin-top: 10px;
-        width: 300px;
+        width: 190px;
     }
+
+    .filme-principal {
+        height: 550px;
+    }
+
+    .filme-principal .titulo {
+        font-size: 30px;
+    }
+
+    .filme-principal .titulo-2 {
+        display: none;
+    }
+
+
+}
+
+@media screen and (max-width:550px) {
+
+    .filme-principal {
+        height: 500px;
+    }
+
+    .filme-principal .titulo {
+        font-size: 30px;
+        margin-top: 100px;
+    }
+
+
 }
 
 @media screen and (min-width:1000px) {
